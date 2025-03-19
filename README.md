@@ -1,6 +1,8 @@
-<h1 align="center"> </h1>
+<h1 align="center"> Sistema Inteligente de Planejamento e Monitoramento de Reflorestamento (SIPMR) </h1>
 
-## :page_facing_up: Sobre o projeto
+## :page_facing_up: Desafio Proposto
+Este projeto visa desenvolver um sistema inteligente para planejamento e monitoramento de reflorestamento, utilizando uma base de dados de plantio para prever padrões de crescimento, 
+sugerir melhores estratégias de recuperação ambiental e monitorar a evolução das áreas reflorestadas.
 
 
 ## :books: Solução
@@ -22,7 +24,7 @@ O principal objetivo é permitir a projeção detalhada do crescimento da colhei
   </tr>
   <tr>
     <td>Alta</td>
-    <td>Visualizar dashboards</td>
+    <td>Dashboard Projeção de crescimento da colheita do lote informado</td>
     <td>1</td>
     <td></td>
   </tr>
