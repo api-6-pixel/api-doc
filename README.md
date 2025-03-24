@@ -28,6 +28,133 @@ O principal objetivo é permitir a projeção detalhada do crescimento da colhei
     <td>1</td>
     <td></td>
   </tr>
+  
+  <tr>
+    <td>Alta</td>
+    <td>Dashboard Projeção de desempenho (R$) da espécie com base nas condições de cada lote</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  
+  
+  <tr>
+    <td>Alta</td>
+    <td>Dashboard Projeção de gastos com tratamento do solo</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  
+  
+  <tr>
+    <td>Alta</td>
+    <td>Tela de dashboards</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  
+  
+  <tr>
+    <td>Alta</td>
+    <td>Tela de atualização diária de plantios</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  
+  
+  <tr>
+    <td>Alta</td>
+    <td>Tela de cadastro de plantios</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  
+  
+  <tr>
+    <td>Alta</td>
+    <td>Autenticação de Usuário</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  
+  
+  <tr>
+    <td>Alta</td>
+    <td>Cadastro de Usuário</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  
+  
+  <tr>
+    <td>Alta</td>
+    <td>Deleção de Usuário</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  
+  
+  <tr>
+    <td>Alta</td>
+    <td>Permissionamento da tela de Usuário</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  
+  
+  <tr>
+    <td>Alta</td>
+    <td>Notificação de vazamento de dados do usuários</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  
+  
+  <tr>
+    <td>Alta</td>
+    <td>Visualização de Informações Pessoais</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  
+  
+  <tr>
+    <td>Alta</td>
+    <td>Atualização de dados Pessoais</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  
+  
+  <tr>
+    <td>Alta</td>
+    <td>Cadastro de Lotes</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  
+  
+  <tr>
+    <td>Alta</td>
+    <td>Visualização de Lotes</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  
+  
+  <tr>
+    <td>Alta</td>
+    <td>Deleção de Lotes</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  
+  
+  <tr>
+    <td>Alta</td>
+    <td>Portabilidade de Dados</td>
+    <td>1</td>
+    <td></td>
+  </tr>
 </table>
 </details>
 
