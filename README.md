@@ -158,7 +158,7 @@ O principal objetivo é permitir a projeção detalhada do crescimento da colhei
 </table>
 </details>
 
-## Requisitos Funcionais
+#### Requisitos Funcionais
 <details>
   <table>
     <tr>
@@ -206,7 +206,7 @@ O principal objetivo é permitir a projeção detalhada do crescimento da colhei
   </table>
 </details>
 
-## Requisitos não funcionais
+#### Requisitos não funcionais
 <details>
   <table>
     <tr>
@@ -240,9 +240,9 @@ O principal objetivo é permitir a projeção detalhada do crescimento da colhei
 
 | Sprint | Periodo | Status |
 | :---: | :---: | :---: |
-| 1 | 30/03/25 - 30/03/25 |:white_check_mark:  |
-| 2 | 30/09/25 - 20/10/25 |:white_check_mark:  |
-| 3 | 21/10/25 - 10/11/25 |  |
+| 1 | 10/03/25 - 30/03/25 |:white_check_mark:  |
+| 2 | 07/04/25 - 27/04/25 |  |
+| 3 | 05/05/25 - 25/05/25 |  |
 
 
 ## :busts_in_silhouette: Equipe de desenvolvimento
