@@ -161,79 +161,106 @@ O principal objetivo é permitir a projeção detalhada do crescimento da colhei
 #### Requisitos Funcionais
 <details>
   <table>
+  <thead>
     <tr>
-      <td>RF-1</td>
-      <td>O sistema deve permitir o gerenciamento de usuários, garantindo que exista dois tipos de acesso: Operador com permissão de gerir os dados da plataforma e Usuário com permissão de visualização dos gráficos.</td>
+      <th>RF-id</th>
+      <th>Requisito</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>RF-01</td>
+      <td>Gerenciamento de Usuários</td>
+      <td>O sistema deve permitir o gerenciamento de usuários, com dois tipos de acesso: <strong>Operador</strong> (gestão de dados) e <strong>Usuário</strong> (visualização de gráficos e dados do plantio). O objetivo é garantir a segurança e evitar acesso não autorizado aos dados sensíveis.</td>
     </tr>
     <tr>
-      <td>RF-2</td>
-      <td>O sistema deve permitir gerenciar um plantio, permitindo listá-lo, excluí-lo e cadastrá-lo.</td>
+      <td>RF-02</td>
+      <td>Cadastro de Plantio</td>
+      <td>O sistema deve permitir ao usuário inserir dados iniciais da colheita e criar vários lotes atrelados ao plantio. Cada lote deve incluir informações sobre <strong>espécie</strong>, <strong>quadrante</strong>, <strong>condição ambiental</strong> do dia e <strong>dados do solo</strong>.</td>
     </tr>
     <tr>
-      <td>RF-3</td>
-      <td>O sistema deve permitir gerenciar espécies, permitindo listá-las, excluí-las e cadastrá-las.</td>
+      <td>RF-03</td>
+      <td>Atualização de Plantio Diário</td>
+      <td>O sistema deve permitir que o usuário atualize todas as informações do plantio, exceto a <strong>espécie plantada</strong>. Além disso, o usuário poderá <strong>finalizar o plantio</strong> após a colheita, liberando o espaço para novos plantios.</td>
     </tr>
     <tr>
-      <td>RF-4</td>
-      <td>O sistema deve permitir gerenciar condições ambientais, permitindo listá-las, excluí-las e cadastrá-las.</td>
+      <td>RF-04</td>
+      <td>Gerenciamento de Lotes</td>
+      <td>O sistema deve permitir ao usuário cadastrar, visualizar, deletar e gerenciar os lotes. Esses lotes podem ser utilizados nas funcionalidades do sistema, como projeção gráfica e atualização de dados.</td>
     </tr>
     <tr>
-      <td>RF-5</td>
-      <td>O sistema deve permitir gerenciar lotes, permitindo listá-los, excluí-los e cadastrá-los.</td>
+      <td>RF-05</td>
+      <td>Disponibilização de Dados do Usuário</td>
+      <td>O sistema deve permitir que os usuários visualizem e gerenciem seus próprios dados pessoais cadastrados, garantindo a conformidade com a LGPD (Lei Geral de Proteção de Dados).</td>
     </tr>
     <tr>
-      <td>RF-6</td>
-      <td>O sistema deve fornecer um dashboard detalhado aos usuários que permita realizar as seguintes projeções:
-          <ul>
-            <li>Projeção de crescimento da colheita do lote informado (mês)</li>
-            <li>Projeção de desempenho (R$) da espécie com base nas condições de cada lote</li>
-            <li>Projeção de gastos com tratamento do solo</li>
-          </ul>
-      </td>
+      <td>RF-06</td>
+      <td>Projeção Gráfica dos Lotes</td>
+      <td>O sistema deve oferecer um <strong>dashboard</strong> com projeções gráficas detalhadas para o usuário, incluindo: <strong>crescimento da colheita</strong>, <strong>desempenho financeiro (R$)</strong> da espécie, e <strong>gastos com tratamento do solo</strong> para cada lote.</td>
     </tr>
     <tr>
-      <td>RF-7</td>
-      <td>O sistema deve solicitar autorização explícita do usuário antes de coletar seus dados pessoais.</td>
+      <td>RF-07</td>
+      <td>Autorização do Usuário para Coleta de Dados</td>
+      <td>O sistema deve solicitar <strong>autorização explícita</strong> do usuário antes de coletar seus dados pessoais, conforme exigido pela LGPD.</td>
     </tr>
     <tr>
-      <td>RF-8</td>
-      <td>O sistema deve permitir que os usuários solicitem a modificação ou exclusão de seus dados pessoais a qualquer momento.</td>
+      <td>RF-08</td>
+      <td>Modificação ou Exclusão de Dados Pessoais</td>
+      <td>O sistema deve permitir que o usuário solicite a <strong>modificação</strong> ou <strong>exclusão</strong> de seus dados pessoais a qualquer momento, proporcionando controle total sobre seus dados.</td>
     </tr>
     <tr>
-      <td>RF-9</td>
-      <td>O sistema deve disparar e-mails para todos os usuários em caso de vazamento de dados notificando os dados expostos.</td>
+      <td>RF-09</td>
+      <td>Notificação de Vazamento de Dados</td>
+      <td>O sistema deve enviar <strong>e-mails de notificação</strong> a todos os usuários em caso de <strong>vazamento de dados</strong>, informando quais dados foram expostos, conforme necessário pela LGPD.</td>
     </tr>
-  </table>
+  </tbody>
+</table>
 </details>
 
 #### Requisitos não funcionais
 <details>
   <table>
+  <thead>
     <tr>
-      <td>RNF-1</td>
-      <td>O sistema deve utilizar modelos de aprendizado de máquina para prever dados relevantes ao plantio.</td>
+      <th>RNF-id</th>
+      <th>Requisito</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>RNF-01</td>
+      <td>Aprendizado de Máquina</td>
+      <td>O sistema deve utilizar <strong>modelos de aprendizado de máquina</strong> para prever dados importantes para o plantio, como crescimento, desempenho financeiro e necessidade de tratamentos do solo.</td>
     </tr>
     <tr>
-      <td>RNF-2</td>
-      <td>O sistema deve fornecer uma política de privacidade clara, informando aos usuários como seus dados serão utilizados, por quanto tempo serão armazenados, e quais dados específicos serão coletados.</td>
+      <td>RNF-02</td>
+      <td>Transparência no Uso de Dados</td>
+      <td>O sistema deve fornecer uma <strong>política de privacidade</strong> clara, informando como os dados dos usuários serão utilizados, por quanto tempo serão armazenados e quais dados específicos serão coletados, garantindo transparência e confiança.</td>
     </tr>
     <tr>
-      <td>RNF-3</td>
-      <td>O sistema deve permitir que seja realizada a portabilidade dos dados do usuário do sistema para qualquer outro, mantendo os dados seguros durante todo o processo.</td>
+      <td>RNF-03</td>
+      <td>Portabilidade de Dados</td>
+      <td>O sistema deve permitir que os <strong>dados do usuário</strong> possam ser exportados e transferidos para <strong>outros sistemas</strong>, mantendo a segurança durante o processo de portabilidade, conforme exigido pela LGPD.</td>
     </tr>
     <tr>
-      <td>RNF-4</td>
-      <td>O sistema deve ser otimizado para exibição em telas de desktop.</td>
+      <td>RNF-04</td>
+      <td>Compatibilidade com Resolução de Tela Desktop</td>
+      <td>O sistema deve ser <strong>otimizado para telas de desktop</strong>, garantindo uma boa visualização e experiência de uso em dispositivos de tela maior.</td>
     </tr>
     <tr>
-      <td>RNF-5</td>
-      <td>O sistema deve implementar autenticação e autorização usando tokens JWT.</td>
+      <td>RNF-05</td>
+      <td>Autenticação com JWT</td>
+      <td>O sistema deve implementar <strong>autenticação e autorização utilizando tokens JWT</strong> (JSON Web Tokens), garantindo segurança nas interações do sistema e no acesso aos dados dos usuários.</td>
     </tr>
     <tr>
-      <td>RNF-6</td>
-      <td>O sistema deve ser compatível com os navegadores mais utilizados (Edge, Chrome e Firefox).</td>
+      <td>RNF-06</td>
+      <td>Compatibilidade com Navegadores Principais</td>
+      <td>O sistema deve ser <strong>compatível com os principais navegadores</strong> da web, como <strong>Edge</strong>, <strong>Chrome</strong> e <strong>Firefox</strong>, para garantir que todos os usuários possam acessar a plataforma de maneira funcional e sem problemas de compatibilidade.</td>
     </tr>
-  </table>
+  </tbody>
+</table>
 </details>
 
 ## :calendar: Entregas
