@@ -28,129 +28,104 @@ O principal objetivo é permitir a projeção detalhada do crescimento da colhei
     <td>1</td>
     <td>RF-6, RNF-1</td>
   </tr>
-  
   <tr>
     <td>Alta</td>
     <td>Dashboard Projeção de desempenho (R$) da espécie com base nas condições de cada lote</td>
     <td>1</td>
     <td>RF-6, RNF-1</td>
   </tr>
-  
-  
   <tr>
     <td>Alta</td>
     <td>Dashboard Projeção de gastos com tratamento do solo</td>
     <td>1</td>
     <td>RF-6, RNF-1</td>
   </tr>
-  
-  
   <tr>
     <td>Alta</td>
     <td>Tela de dashboards</td>
     <td>1</td>
     <td>RF-6, RNF-1, RNF-4, RNF-6</td>
   </tr>
-  
-  
   <tr>
     <td>Alta</td>
     <td>Tela de atualização diária de plantios</td>
     <td>1</td>
     <td>RF-3, RNF-4, RNF-6</td>
   </tr>
-  
-  
   <tr>
     <td>Alta</td>
     <td>Tela de cadastro de plantios</td>
     <td>1</td>
     <td>RF-2, RNF-4, RNF-6</td>
   </tr>
-  
-  
   <tr>
     <td>Alta</td>
     <td>Autenticação de Usuário</td>
     <td>2</td>
     <td>RF-1, RNF-4, RNF-6, RNF-5</td>
   </tr>
-  
-  
   <tr>
     <td>Alta</td>
     <td>Criação de Conta</td>
     <td>2</td>
     <td>RF-1, RNF-4, RNF-6, RF-7, RNF-2</td>
   </tr>
-  
-  
   <tr>
-    <td>Alta</td>
+    <td>Media</td>
     <td>Deleção de Conta</td>
     <td>2</td>
     <td>RF-8, RNF-4, RNF-6</td>
   </tr>
-  
-  
   <tr>
-    <td>Alta</td>
+    <td>Media</td>
     <td>Permissionamento da tela de Usuário</td>
     <td>2</td>
     <td>RF-1, RNF-4, RNF-6</td>
   </tr>
-  
-  
   <tr>
     <td>Alta</td>
     <td>Notificação de vazamento de dados do usuários</td>
     <td>2</td>
-    <td></td>
+    <td>RF-09, RNF-02</td>
   </tr>
-  
-  
   <tr>
-    <td>Alta</td>
+    <td>Baixa</td>
     <td>Visualização de Informações Pessoais</td>
     <td>2</td>
-    <td></td>
+    <td>RF-5, RNF-2</td>
   </tr>
-  
-  
   <tr>
-    <td>Alta</td>
+    <td>Baixa</td>
     <td>Atualização de dados Pessoais</td>
     <td>2</td>
-    <td></td>
+    <td>RNF-2, RF-5, RF-1 </td>
   </tr>
-  
-  
   <tr>
-    <td>Alta</td>
+    <td>Media</td>
     <td>Cadastro de Lotes</td>
     <td>3</td>
-    <td></td>
+    <td>RF-4, RNF-4, RNF-6</td>
   </tr>
   
   
   <tr>
-    <td>Alta</td>
+    <td>Media</td>
     <td>Visualização de Lotes</td>
     <td>3</td>
-    <td></td>
+    <td>RF-4, RNF-4, RNF-6</td>
   </tr>
   
   
   <tr>
-    <td>Alta</td>
+    <td>Media</td>
     <td>Deleção de Lotes</td>
     <td>3</td>
-    <td></td>
+    <td>RF-4, RNF-4, RNF-6</td>
   </tr>
   
   
   <tr>
-    <td>Alta</td>
+    <td>Baixa</td>
     <td>Portabilidade de Dados</td>
     <td>3</td>
     <td>RF-7, RNF-3, RNF-02</td>
