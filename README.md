@@ -158,14 +158,91 @@ O principal objetivo é permitir a projeção detalhada do crescimento da colhei
 </table>
 </details>
 
+## Requisitos Funcionais
+<details>
+  <table>
+    <tr>
+      <td>RF-1</td>
+      <td>O sistema deve permitir o gerenciamento de usuários, garantindo que exista dois tipos de acesso: Operador com permissão de gerir os dados da plataforma e Usuário com permissão de visualização dos gráficos.</td>
+    </tr>
+    <tr>
+      <td>RF-2</td>
+      <td>O sistema deve permitir gerenciar um plantio, permitindo listá-lo, excluí-lo e cadastrá-lo.</td>
+    </tr>
+    <tr>
+      <td>RF-3</td>
+      <td>O sistema deve permitir gerenciar espécies, permitindo listá-las, excluí-las e cadastrá-las.</td>
+    </tr>
+    <tr>
+      <td>RF-4</td>
+      <td>O sistema deve permitir gerenciar condições ambientais, permitindo listá-las, excluí-las e cadastrá-las.</td>
+    </tr>
+    <tr>
+      <td>RF-5</td>
+      <td>O sistema deve permitir gerenciar lotes, permitindo listá-los, excluí-los e cadastrá-los.</td>
+    </tr>
+    <tr>
+      <td>RF-6</td>
+      <td>O sistema deve fornecer um dashboard detalhado aos usuários que permita realizar as seguintes projeções:
+          <ul>
+            <li>Projeção de crescimento da colheita do lote informado (mês)</li>
+            <li>Projeção de desempenho (R$) da espécie com base nas condições de cada lote</li>
+            <li>Projeção de gastos com tratamento do solo</li>
+          </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>RF-7</td>
+      <td>O sistema deve solicitar autorização explícita do usuário antes de coletar seus dados pessoais.</td>
+    </tr>
+    <tr>
+      <td>RF-8</td>
+      <td>O sistema deve permitir que os usuários solicitem a modificação ou exclusão de seus dados pessoais a qualquer momento.</td>
+    </tr>
+    <tr>
+      <td>RF-9</td>
+      <td>O sistema deve disparar e-mails para todos os usuários em caso de vazamento de dados notificando os dados expostos.</td>
+    </tr>
+  </table>
+</details>
+
+## Requisitos não funcionais
+<details>
+  <table>
+    <tr>
+      <td>RNF-1</td>
+      <td>O sistema deve utilizar modelos de aprendizado de máquina para prever dados relevantes ao plantio.</td>
+    </tr>
+    <tr>
+      <td>RNF-2</td>
+      <td>O sistema deve fornecer uma política de privacidade clara, informando aos usuários como seus dados serão utilizados, por quanto tempo serão armazenados, e quais dados específicos serão coletados.</td>
+    </tr>
+    <tr>
+      <td>RNF-3</td>
+      <td>O sistema deve permitir que seja realizada a portabilidade dos dados do usuário do sistema para qualquer outro, mantendo os dados seguros durante todo o processo.</td>
+    </tr>
+    <tr>
+      <td>RNF-4</td>
+      <td>O sistema deve ser otimizado para exibição em telas de desktop.</td>
+    </tr>
+    <tr>
+      <td>RNF-5</td>
+      <td>O sistema deve implementar autenticação e autorização usando tokens JWT.</td>
+    </tr>
+    <tr>
+      <td>RNF-6</td>
+      <td>O sistema deve ser compatível com os navegadores mais utilizados (Edge, Chrome e Firefox).</td>
+    </tr>
+  </table>
+</details>
+
 ## :calendar: Entregas
 
 | Sprint | Periodo | Status |
 | :---: | :---: | :---: |
-| 1 | 09/09/24 - 29/09/24 |:white_check_mark:  |
-| 2 | 30/09/24 - 20/10/24 |:white_check_mark:  |
-| 3 | 21/10/24 - 10/11/24 |  |
-| 4 | 11/11/24 - 01/12/24 |  |
+| 1 | 30/03/25 - 30/03/25 |:white_check_mark:  |
+| 2 | 30/09/25 - 20/10/25 |:white_check_mark:  |
+| 3 | 21/10/25 - 10/11/25 |  |
 
 
 ## :busts_in_silhouette: Equipe de desenvolvimento
