@@ -26,14 +26,14 @@ O principal objetivo é permitir a projeção detalhada do crescimento da colhei
     <td>Alta</td>
     <td>Dashboard Projeção de crescimento da colheita do lote informado</td>
     <td>1</td>
-    <td></td>
+    <td>RF-6, RNF-1</td>
   </tr>
   
   <tr>
     <td>Alta</td>
     <td>Dashboard Projeção de desempenho (R$) da espécie com base nas condições de cada lote</td>
     <td>1</td>
-    <td></td>
+    <td>RF-6, RNF-1</td>
   </tr>
   
   
@@ -41,7 +41,7 @@ O principal objetivo é permitir a projeção detalhada do crescimento da colhei
     <td>Alta</td>
     <td>Dashboard Projeção de gastos com tratamento do solo</td>
     <td>1</td>
-    <td></td>
+    <td>RF-6, RNF-1</td>
   </tr>
   
   
@@ -49,7 +49,7 @@ O principal objetivo é permitir a projeção detalhada do crescimento da colhei
     <td>Alta</td>
     <td>Tela de dashboards</td>
     <td>1</td>
-    <td></td>
+    <td>RF-6, RNF-1, RNF-4, RNF-6</td>
   </tr>
   
   
@@ -57,7 +57,7 @@ O principal objetivo é permitir a projeção detalhada do crescimento da colhei
     <td>Alta</td>
     <td>Tela de atualização diária de plantios</td>
     <td>1</td>
-    <td></td>
+    <td>RF-3, RNF-4, RNF-6</td>
   </tr>
   
   
@@ -65,7 +65,7 @@ O principal objetivo é permitir a projeção detalhada do crescimento da colhei
     <td>Alta</td>
     <td>Tela de cadastro de plantios</td>
     <td>1</td>
-    <td></td>
+    <td>RF-2, RNF-4, RNF-6</td>
   </tr>
   
   
@@ -73,15 +73,15 @@ O principal objetivo é permitir a projeção detalhada do crescimento da colhei
     <td>Alta</td>
     <td>Autenticação de Usuário</td>
     <td>2</td>
-    <td></td>
+    <td>RF-1, RNF-4, RNF-6, RNF-5</td>
   </tr>
   
   
   <tr>
     <td>Alta</td>
-    <td>Cadastro de Usuário</td>
+    <td>Criação de Conta</td>
     <td>2</td>
-    <td></td>
+    <td>RF-1, RNF-4, RNF-6, RF-7, RNF-2</td>
   </tr>
   
   
@@ -89,7 +89,7 @@ O principal objetivo é permitir a projeção detalhada do crescimento da colhei
     <td>Alta</td>
     <td>Deleção de Conta</td>
     <td>2</td>
-    <td></td>
+    <td>RF-8, RNF-4, RNF-6</td>
   </tr>
   
   
@@ -97,7 +97,7 @@ O principal objetivo é permitir a projeção detalhada do crescimento da colhei
     <td>Alta</td>
     <td>Permissionamento da tela de Usuário</td>
     <td>2</td>
-    <td></td>
+    <td>RF-1, RNF-4, RNF-6</td>
   </tr>
   
   
@@ -153,7 +153,7 @@ O principal objetivo é permitir a projeção detalhada do crescimento da colhei
     <td>Alta</td>
     <td>Portabilidade de Dados</td>
     <td>3</td>
-    <td></td>
+    <td>RF-7, RNF-3, RNF-02</td>
   </tr>
 </table>
 </details>
@@ -201,8 +201,8 @@ O principal objetivo é permitir a projeção detalhada do crescimento da colhei
     </tr>
     <tr>
       <td>RF-07</td>
-      <td>Autorização do Usuário para Coleta de Dados</td>
-      <td>O sistema deve solicitar <strong>autorização explícita</strong> do usuário antes de coletar seus dados pessoais, conforme exigido pela LGPD.</td>
+      <td>Autorização dos Termos de Uso</td>
+      <td>O sistema deve solicitar <strong>autorização explícita</strong> do usuário em relação aos termos de uso</td>
     </tr>
     <tr>
       <td>RF-08</td>
