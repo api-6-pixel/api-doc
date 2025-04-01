@@ -238,6 +238,15 @@ O principal objetivo é permitir a projeção detalhada do crescimento da colhei
 </table>
 </details>
 
+
+#### DOR
+<details>
+  • A história esta testável(com BDD definido).
+  • Prioridades da história esta alinhada com cliente.
+  • Quebra da história realizada e pontuada.
+  • Requisitos estão definidos na história. 
+</details>
+
 ## :calendar: Entregas
 
 | Sprint | Periodo | Status |
