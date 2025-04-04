@@ -241,10 +241,17 @@ O principal objetivo é permitir a projeção detalhada do crescimento da colhei
 
 #### DOR
 <details>
-  • A história esta testável(com BDD definido).
-  • Prioridades da história esta alinhada com cliente.
-  • Quebra da história realizada e pontuada.
-  • Requisitos estão definidos na história. 
+  • A história esta testável(com BDD definido). <br>
+  • Prioridades da história esta alinhada com cliente. <br>
+  • Quebra da história realizada e pontuada. <br>
+  • Requisitos estão definidos na história. <br>
+</details>
+
+#### DOD
+<details>
+  • Testes foram realizados na branch de develop. <br>
+  • Projetos afetados descritos no JIRA. <br>
+  • Todas histórias movidas para CONCLUÍDO. <br>
 </details>
 
 ## :calendar: Entregas
