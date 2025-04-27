@@ -254,6 +254,90 @@ O principal objetivo é permitir a projeção detalhada do crescimento da colhei
   • Todas histórias movidas para CONCLUÍDO. <br>
 </details>
 
+#### Dicionario de dados
+<details>
+
+##### tb_atualizacao
+| Nome | Tipo | Constraint | Observação |
+|------|------|------------|------------|
+| atualizacao_indice_uv | double precision | NOT NULL | Índice U.V. do solo em % |
+| atualizacao_ph_solo | double precision | NOT NULL | PH do solo em % |
+| atualizacao_temperatura_ambiente | double precision | NOT NULL | Temperatura ambiente em Celsius |
+| atualizacao_temperatura_solo | double precision | NOT NULL | Temperatura do solo em Celsius |
+| atualizacao_umidade_ambiente | double precision | NOT NULL | Umidade do ambiente |
+| atualizacao_umidade_solo | double precision | NOT NULL | Umidade o solo |
+| atualizacao_id | bigint | PRIMARY KEY (IDENTITY) | Identificador único |
+| atualizacao_registro | timestamp | NOT NULL | Data hora da criação do registro |
+| plantacao_id | bigint | NOT NULL, FK | Campo de relacionamento com a tabela de tb_plantacao |
+
+##### tb_cad_termo
+| Nome | Tipo | Constraint | Observação |
+|------|------|------------|------------|
+| codigo | bigint | PRIMARY KEY (IDENTITY) | Identificador único |
+| data_criacao | timestamp | NULLABLE | Data hora da criação do registro |
+| descricao | character varying(255) | NULLABLE | Descrição o termo |
+| titulo | character varying(255) | NULLABLE | Titulo do termo |
+| versao | character varying(255) | NULLABLE | Qual a versão eu o termo se encontra |
+
+##### tb_cad_termo_item
+| Nome | Tipo | Constraint | Observação |
+|------|------|------------|------------|
+| obrigatorio | boolean | NOT NULL | Obrigatoriedade deste termo |
+| codigo | bigint | PRIMARY KEY (IDENTITY) | Identificador único |
+| termo_codigo | bigint | NOT NULL, FK | Campo de relacionamento com a tabela de tb_cad_termo |
+| descricao | character varying(255) | NULLABLE | Descrição o item do termo |
+
+##### tb_cad_termo_item_aceite
+| Nome | Tipo | Constraint | Observação |
+|------|------|------------|------------|
+| aceito | boolean | NOT NULL | Se o termo foi aceito ou não |
+| codigo | bigint | PRIMARY KEY (IDENTITY) | Identificador único |
+| termo_aceite_codigo | bigint | NOT NULL | Campo de relacionamento com a tabela de tb_cad_termo_item_aceite_usuario_historico |
+| termo_item_codigo | bigint | NOT NULL, FK | Campo de relacionamento com a tabela de tb_cad_termo_item |
+
+##### tb_cad_termo_item_aceite_usuario_historico
+| Nome | Tipo | Constraint | Observação |
+|------|------|------------|------------|
+| codigo | bigint | PRIMARY KEY (IDENTITY) | Identificador único |
+| data_aceite | timestamp | NULLABLE | Data hora de aceite |
+| data_alteracao | timestamp | NULLABLE | Data hora de alteração do termo |
+| termo_codigo | bigint | NOT NULL FK | Campo de relacionamento com a tabela de tb_cad_termo |
+| usuario_codigo | bigint | NOT NULL FK | Campo de relacionamento com a tabela de tb_usuario |
+
+##### tb_fazenda
+| Nome | Tipo | Constraint | Observação |
+|------|------|------------|------------|
+| fazenda_area | double precision | NOT NULL | Area de plantio da fazenda |
+| fazenda_criacao | timestamp | NOT NULL | Data hora de criação do registro |
+| fazenda_id | bigint | PRIMARY KEY (IDENTITY) | Identificador único |
+| fazenda_localizacao | character varying(255) | NOT NULL | Localização da fazenda |
+| fazenda_nome | character varying(255) | NOT NULL | Nome da fazenda |
+
+##### tb_plantacao
+| Nome | Tipo | Constraint | Observação |
+|------|------|------------|------------|
+| plantacao_area | double precision | NOT NULL | Area de plantação |
+| plantacao_custo | double precision | NOT NULL | Custo estimado |
+| plantacao_data | timestamp | NOT NULL | Data hora da criação do registro |
+| plantacao_id | bigint | PRIMARY KEY (IDENTITY) | Identificador único |
+| usuario_id | bigint | NOT NULL, FK | Campo de relacionamento com a tabela de tb_usuario |
+| plantacao_especie | character varying(255) | NOT NULL | Espécie plantada |
+| plantacao_fazenda | character varying(255) | NOT NULL | Nome do lote |
+
+##### tb_usuario
+| Nome | Tipo | Constraint | Observação |
+|------|------|------------|------------|
+| usuario_dt_criacao | timestamp | NOT NULL | Data hora da criação do registro |
+| usuario_id | bigint | PRIMARY KEY (IDENTITY) | Identificador único |
+| usuario_documento | character varying(255) | NOT NULL | CPF/CNPJ (criptografada) |
+| usuario_email | character varying(255) | NOT NULL | Email do usuário |
+| usuario_funcao | character varying(255) | NOT NULL | Funaro do usuário no sistema (criptografada) |
+| usuario_nome | character varying(255) | NOT NULL | Nome do usuário (criptografada) |
+| usuario_senha | character varying(255) | NOT NULL | Senha o usuário (criptografada) |
+  
+</details>
+
+
 ## :calendar: Entregas
 
 | Sprint | Periodo | Status |
