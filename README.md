@@ -337,14 +337,168 @@ O principal objetivo é permitir a projeção detalhada do crescimento da colhei
   
 </details>
 
+## Sprint 1
+
+<details>
+<summary>Dashboard de Projeções</summary>
+
+**Requisitos:**
+- Projeção de crescimento da colheita do lote informado (mensal)
+- Projeção de desempenho (R$) da espécie com base nas condições de cada lote
+- Projeção de gastos com tratamento do solo
+
+</details>
+
+<details>
+<summary>Cadastro de Plantio</summary>
+
+**Requisitos:**
+- Cada lote deve conter:
+  - Espécie plantada
+  - Quadrante
+  - Condição ambiental do dia
+  - Dados relacionados ao solo
+
+</details>
+
+<details>
+<summary>Atualização Diária de Plantio</summary>
+
+**Requisitos:**
+- Permitir atualização de todas as informações, exceto a espécie plantada
+- Possibilitar finalização do plantio após a colheita
+- Liberar o quadrante para novo plantio após colheita
+
+</details>
+
+---
+
+## Sprint 2
+
+<details>
+<summary>[PX-41] Autenticação de Usuários</summary>
+
+**Requisitos:**
+- Gerenciamento de Usuário
+- Compatibilidade com Resolução de Tela Desktop
+- Autenticação com JWT
+- Compatibilidade com Navegadores Principais
+
+</details>
+
+<details>
+<summary>[PX-42] Cadastro de Usuário</summary>
+
+**Requisitos:**
+- Gerenciamento de Usuários
+- Aceite dos termos de uso
+- Transparência no Uso de Dados
+- Compatibilidade com Resolução de Tela Desktop
+- Compatibilidade com Navegadores Principais
+
+</details>
+
+<details>
+<summary>[PX-47] Visualização de Dados Pessoais</summary>
+
+**Requisitos:**
+- Gerenciamento de Usuários
+- Transparência no Uso de Dados
+- Compatibilidade com Resolução de Tela Desktop
+- Compatibilidade com Navegadores Principais
+
+</details>
+
+<details>
+<summary>[PX-43] Deleção de Conta</summary>
+
+**Requisitos:**
+- Gerenciamento de Usuários
+- Modificação ou Exclusão de Dados Pessoais
+- Compatibilidade com Resolução de Tela Desktop
+- Compatibilidade com Navegadores Principais
+
+</details>
+
+<details>
+<summary>[PX-48] Atualização de Dados Pessoais</summary>
+
+**Requisitos:**
+- Gerenciamento de Usuários
+- Modificação ou Exclusão de Dados Pessoais
+- Compatibilidade com Resolução de Tela Desktop
+- Compatibilidade com Navegadores Principais
+
+</details>
+
+<details>
+<summary>[PX-46] Notificação de Vazamento de Dados</summary>
+
+**Requisitos:**
+- Permissionamento de Usuário
+- Transparência no Uso de Dados
+
+</details>
+
+---
+
+## Sprint 3
+
+<details>
+<summary>[PX-110] Uso Administrativo do Sistema</summary>
+
+**Requisitos:**
+- Permissionamento do sistema
+- Visibilidade de Lotes do Usuário
+- Compatibilidade com Navegadores Principais
+- Compatibilidade com Resolução Desktop
+
+</details>
+
+<details>
+<summary>[PX-111] Portabilidade de Dados</summary>
+
+**Requisitos:**
+- Portabilidade dos dados
+
+</details>
+
+<details>
+<summary>[PX-113] Como Melhorar a Sua Colheita</summary>
+
+**Requisitos:**
+- Projeção gráfica dos lotes
+- Melhoria de Lotes do Usuário
+
+</details>
+
+<details>
+<summary>[PX-145] Extração de Dados de Lote do Usuário</summary>
+
+**Requisitos:**
+- Extração de dados do plantio via Excel
+- Disponibilização dos dados offline
+- Compatibilidade com Navegadores Principais
+- Compatibilidade com Resolução Desktop
+
+</details>
+
+<details>
+<summary>[PX-146] Extração de Dados de Projeção do Usuário</summary>
+
+**Requisitos:**
+- Extração de dados de previsibilidade do lote via Excel
+
+</details>
+
 
 ## :calendar: Entregas
 
 | Sprint | Periodo | Status |
 | :---: | :---: | :---: |
 | 1 | 10/03/25 - 30/03/25 |:white_check_mark:  |
-| 2 | 07/04/25 - 27/04/25 |  |
-| 3 | 05/05/25 - 25/05/25 |  |
+| 2 | 07/04/25 - 27/04/25 |:white_check_mark: |
+| 3 | 05/05/25 - 25/05/25 |:white_check_mark: |
 
 
 ## :busts_in_silhouette: Equipe de desenvolvimento
